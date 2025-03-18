@@ -1,0 +1,18 @@
+{
+  "MarketName": "WildBerries",
+  "MarketUrl": "https://www.wildberries.ru/",
+  "SearchBoxXPath": "//input[@id='searchInput']",
+  "ProductElementsXPath": "//article[contains(@class, 'product-card')]",
+  "NameXPath": ".//span[@class='product-card__name']",
+  "PriceXPath": ".//ins[contains(@class, 'price__lower-price')]",
+  "ImageXPath": ".//img[contains(@class, 'j-thumbnail')]",
+  "UrlXPath": ".//a[contains(@class, 'product-card__link')]",
+  "BrandXPath": ".//span[@class='product-card__brand']",
+  "RatingXPath": ".//span[contains(@class, 'address-rate-mini')]",
+  "ReviewsXPath": ".//span[contains(@class, 'product-card__count')]",
+  "MaxScrollAttempts": 5,
+  "ScrollDelayMs": 1000,
+  "NumberOfProducts": 4,
+  "WaitingBeforeSearching": 0,
+  "WaitingForAction": 0
+}

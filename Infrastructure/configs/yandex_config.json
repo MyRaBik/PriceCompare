@@ -1,0 +1,22 @@
+{
+  "MarketName": "YandexMarket",
+  "MarketUrl": "https://market.yandex.ru/",
+  "SearchBoxXPath": "//input[@id='header-search']",
+  "ProductElementsXPath": "//span[@data-auto='snippet-title']/ancestor::article",
+  "NameXPath": ".//span[@data-auto='snippet-title']",
+  "PriceXPath": ".//span[contains(@class, 'ds-visuallyHidden') and contains(text(), '₽')]",
+  "UrlXPath": ".//a[contains(@data-zone-name, 'snippet-link')]",
+  "ImageXPath": ".//img",
+  "ReviewsContainer": ".//span[@data-auto='reviews']",
+  "RatingXPath": "./span[1]",
+  "ReviewsXPath": "./span[2]",
+  "SortButtonXPath": "//button[contains(text(), 'популярные') or @data-autotest-id='apop']",
+  "SortCheapestXPath": "//button[contains(text(), 'подешевле') and @data-autotest-id='aprice']",
+  "MaxScrollAttempts": 4,
+  "ScrollDelayMs": 500,
+  "NumberOfProducts": 4,
+  "WaitingBeforeSearching": 1500,
+  "WaitingForAction": 0,
+  "WaitCardsBeforeSearch": false,
+  "ParserTimeoutMs": 90000
+}

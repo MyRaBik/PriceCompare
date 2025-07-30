@@ -1,0 +1,20 @@
+{
+  "MarketName": "Ozon",
+  "MarketUrl": "https://www.ozon.ru/",
+  "SearchBoxXPath": "//input[contains(@placeholder, 'Искать на Ozon')]",
+  "ProductElementsXPath": "//div[.//span[contains(text(), '₽')] and .//img[contains(@src, 's3/multimedia-')] and .//a[contains(@href, '/product/')]]",
+  "NameXPath": ".//a[contains(@class, 'tile-clickable-element')]//span[contains(@class, 'tsBody500')]",
+  "PriceXPath": ".//span[contains(text(), '₽')]",
+  "ImageXPath": ".//img[contains(@src, 's3/multimedia-')]",
+  "UrlXPath": ".//a[contains(@href, '/product/')]",
+  "BrandXPath": ".//div[starts-with(@class, 'p6b')]//b",
+  "RatingXPath": ".//span[normalize-space(text()) and not(descendant::*) and number(translate(text(), ',', '.')) >= 0]",
+  "ReviewsXPath": ".//span[contains(text(), 'отзыв')]",
+  "MaxScrollAttempts": 3,
+  "ScrollDelayMs": 500,
+  "NumberOfProducts": 4,
+  "WaitingBeforeSearching": 500,
+  "WaitingForAction": 0,
+  "WaitCardsBeforeSearch": false,
+  "ParserTimeoutMs": 90000
+}
